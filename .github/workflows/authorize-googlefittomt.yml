@@ -8,7 +8,7 @@ env:
   AZURE_FUNCTIONAPP_PACKAGE_PATH: Authorization\FitOnFhir.Authorization\published
   CONFIGURATION: Release
   DOTNET_CORE_VERSION: 7.0.x
-  WORKING_DIRECTORY: Authorization\FitOnFhir.Authorization
+  WORKING_DIRECTORY: FitOnFhir.Authorization
 jobs:
   build:
     runs-on: windows-latest
